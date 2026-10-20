@@ -14,6 +14,8 @@ const clients = [
   { name: "ESPAQFE Ingeniería", slug: "espaqfe",     sector: "Ingeniería" },
   { name: "Fimet",              slug: "fimet",       sector: "Manufactura" },
   { name: "Plásticos Bostico", slug: "plasticos-bostico", sector: "Manufactura" },
+  { name: "Tetra Pak",         slug: "tetra-pak",        sector: "Alimentos" },
+  { name: "Tremblay",          slug: "tremblay",         sector: "Manufactura" },
 ];
 
 function ClientLogo({ name, slug }: { name: string; slug: string }) {
