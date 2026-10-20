@@ -17,6 +17,7 @@ const clients = [
   { name: "Tetra Pak",         slug: "tetra-pak",        sector: "Alimentos" },
   { name: "Tremblay",          slug: "tremblay",         sector: "Manufactura" },
   { name: "Bisignano",         slug: "bisignano",        sector: "Manufactura" },
+  { name: "TEC SRL",           slug: "tec-srl",          sector: "Ingeniería" },
 ];
 
 function ClientLogo({ name, slug }: { name: string; slug: string }) {
