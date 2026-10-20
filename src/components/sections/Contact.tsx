@@ -1,5 +1,6 @@
 "use client";
 import { useState, FormEvent } from "react";
+import { useRouter } from "next/navigation";
 
 const contactInfo = [
   {
@@ -69,6 +70,7 @@ type FormStatus = "idle" | "loading" | "success" | "error";
 
 export default function Contact() {
   const [status, setStatus] = useState<FormStatus>("idle");
+  const router = useRouter();
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -80,8 +82,11 @@ export default function Contact() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-      setStatus(res.ok ? "success" : "error");
-      if (res.ok) (e.target as HTMLFormElement).reset();
+      if (res.ok) {
+        router.push("/gracias");
+      } else {
+        setStatus("error");
+      }
     } catch {
       setStatus("error");
     }
