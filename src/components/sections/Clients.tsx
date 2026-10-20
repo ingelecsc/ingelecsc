@@ -16,6 +16,7 @@ const clients = [
   { name: "Plásticos Bostico", slug: "plasticos-bostico", sector: "Manufactura" },
   { name: "Tetra Pak",         slug: "tetra-pak",        sector: "Alimentos" },
   { name: "Tremblay",          slug: "tremblay",         sector: "Manufactura" },
+  { name: "Bisignano",         slug: "bisignano",        sector: "Manufactura" },
 ];
 
 function ClientLogo({ name, slug }: { name: string; slug: string }) {
