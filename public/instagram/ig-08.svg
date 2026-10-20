@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+  <rect width="900" height="1200" fill="#1A0020"/>
+  <!-- Montaje de conduit y cajas de paso -->
+  <rect x="0" y="0" width="900" height="1200" fill="#2D003A" opacity="0.6"/>
+  <!-- Pared -->
+  <rect x="50" y="50" width="800" height="1100" fill="#2D003A" stroke="#3D1045" stroke-width="1"/>
+  <!-- Conduit horizontal superior -->
+  <rect x="80" y="120" width="740" height="30" rx="15" fill="#3D1045" stroke="#7D3A72" stroke-width="2"/>
+  <!-- Conduit horizontal medio -->
+  <rect x="80" y="420" width="740" height="30" rx="15" fill="#3D1045" stroke="#5B1D58" stroke-width="1.5"/>
+  <!-- Conduit horizontal inferior -->
+  <rect x="80" y="720" width="740" height="30" rx="15" fill="#3D1045" stroke="#7D3A72" stroke-width="2"/>
+  <!-- Conduits verticales -->
+  <rect x="165" y="120" width="30" height="930" rx="15" fill="#3D1045" stroke="#5B1D58" stroke-width="1.5"/>
+  <rect x="415" y="120" width="30" height="930" rx="15" fill="#3D1045" stroke="#7D3A72" stroke-width="2"/>
+  <rect x="665" y="120" width="30" height="630" rx="15" fill="#3D1045" stroke="#5B1D58" stroke-width="1.5"/>
+  <!-- Cajas de paso -->
+  <rect x="140" y="100" width="80" height="80" rx="3" fill="#3D1045" stroke="#7D3A72" stroke-width="2"/>
+  <circle cx="180" cy="140" r="6" fill="#7D3A72" opacity="0.5"/>
+  <rect x="390" y="100" width="80" height="80" rx="3" fill="#3D1045" stroke="#7D3A72" stroke-width="2"/>
+  <circle cx="430" cy="140" r="6" fill="#7D3A72" opacity="0.5"/>
+  <rect x="640" y="100" width="80" height="80" rx="3" fill="#3D1045" stroke="#5B1D58" stroke-width="2"/>
+  <circle cx="680" cy="140" r="6" fill="#5B1D58" opacity="0.5"/>
+  <rect x="140" y="400" width="80" height="80" rx="3" fill="#3D1045" stroke="#7D3A72" stroke-width="2"/>
+  <circle cx="180" cy="440" r="6" fill="#7D3A72" opacity="0.5"/>
+  <rect x="390" y="400" width="80" height="80" rx="3" fill="#3D1045" stroke="#7D3A72" stroke-width="2"/>
+  <circle cx="430" cy="440" r="6" fill="#7D3A72" opacity="0.5"/>
+  <rect x="640" y="400" width="80" height="80" rx="3" fill="#3D1045" stroke="#5B1D58" stroke-width="2"/>
+  <circle cx="680" cy="440" r="6" fill="#5B1D58" opacity="0.5"/>
+  <rect x="140" y="700" width="80" height="80" rx="3" fill="#3D1045" stroke="#7D3A72" stroke-width="2"/>
+  <circle cx="180" cy="740" r="6" fill="#7D3A72" opacity="0.5"/>
+  <rect x="390" y="700" width="80" height="80" rx="3" fill="#3D1045" stroke="#7D3A72" stroke-width="2"/>
+  <circle cx="430" cy="740" r="6" fill="#7D3A72" opacity="0.5"/>
+  <!-- Abrazaderas soporte -->
+  <g fill="#5B1D58" stroke="#7D3A72" stroke-width="1">
+    <rect x="175" y="270" width="30" height="10" rx="2"/>
+    <rect x="175" y="570" width="30" height="10" rx="2"/>
+    <rect x="175" y="870" width="30" height="10" rx="2"/>
+    <rect x="425" y="270" width="30" height="10" rx="2"/>
+    <rect x="425" y="570" width="30" height="10" rx="2"/>
+    <rect x="425" y="870" width="30" height="10" rx="2"/>
+    <rect x="675" y="270" width="30" height="10" rx="2"/>
+    <rect x="675" y="570" width="30" height="10" rx="2"/>
+  </g>
+  <!-- Tomacorrientes industriales -->
+  <g fill="#3D1045" stroke="#7D3A72" stroke-width="1.5">
+    <rect x="270" y="350" width="80" height="70" rx="3"/>
+    <circle cx="310" cy="385" r="20" fill="none" stroke="#7D3A72" stroke-width="1"/>
+    <circle cx="310" cy="385" r="6" fill="#1A0020"/>
+    <rect x="520" y="350" width="80" height="70" rx="3"/>
+    <circle cx="560" cy="385" r="20" fill="none" stroke="#7D3A72" stroke-width="1"/>
+    <circle cx="560" cy="385" r="6" fill="#1A0020"/>
+    <rect x="270" y="650" width="80" height="70" rx="3"/>
+    <circle cx="310" cy="685" r="20" fill="none" stroke="#7D3A72" stroke-width="1"/>
+    <circle cx="310" cy="685" r="6" fill="#1A0020"/>
+  </g>
+  <text x="450" y="1150" font-family="monospace" font-size="12" fill="#7D3A72" text-anchor="middle">INSTALACIONES ELÉCTRICAS — ingelec.argentina</text>
+</svg>

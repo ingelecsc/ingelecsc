@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#1A0020"/>
+  <!-- Suelo industrial -->
+  <rect x="0" y="650" width="1200" height="250" fill="#2D003A"/>
+  <g stroke="#3D1045" stroke-width="1">
+    <line x1="0" y1="680" x2="1200" y2="680"/>
+    <line x1="0" y1="720" x2="1200" y2="720"/>
+    <line x1="0" y1="760" x2="1200" y2="760"/>
+    <line x1="0" y1="800" x2="1200" y2="800"/>
+    <line x1="0" y1="840" x2="1200" y2="840"/>
+    <line x1="100" y1="650" x2="100" y2="900"/>
+    <line x1="200" y1="650" x2="200" y2="900"/>
+    <line x1="300" y1="650" x2="300" y2="900"/>
+    <line x1="400" y1="650" x2="400" y2="900"/>
+    <line x1="500" y1="650" x2="500" y2="900"/>
+    <line x1="600" y1="650" x2="600" y2="900"/>
+    <line x1="700" y1="650" x2="700" y2="900"/>
+    <line x1="800" y1="650" x2="800" y2="900"/>
+    <line x1="900" y1="650" x2="900" y2="900"/>
+    <line x1="1000" y1="650" x2="1000" y2="900"/>
+    <line x1="1100" y1="650" x2="1100" y2="900"/>
+  </g>
+  <!-- Soportes verticales -->
+  <g fill="#3D1045" stroke="#5B1D58" stroke-width="1.5">
+    <rect x="80" y="100" width="20" height="560"/>
+    <rect x="280" y="100" width="20" height="560"/>
+    <rect x="480" y="100" width="20" height="560"/>
+    <rect x="680" y="100" width="20" height="560"/>
+    <rect x="880" y="100" width="20" height="560"/>
+    <rect x="1080" y="100" width="20" height="560"/>
+  </g>
+  <!-- Bandeja portacables capa 1 -->
+  <rect x="60" y="130" width="1080" height="50" fill="#2D003A" stroke="#7D3A72" stroke-width="2"/>
+  <!-- Cables en bandeja 1 -->
+  <g stroke-width="8" fill="none">
+    <line x1="65" y1="155" x2="1135" y2="155" stroke="#7D3A72" opacity="0.9"/>
+    <line x1="65" y1="170" x2="1135" y2="170" stroke="#5B1D58" opacity="0.85"/>
+    <line x1="65" y1="142" x2="1135" y2="142" stroke="#9B7A97" opacity="0.8"/>
+    <line x1="65" y1="185" x2="500" y2="185" stroke="#7D3A72" opacity="0.7"/>
+  </g>
+  <!-- Bandeja capa 2 -->
+  <rect x="60" y="240" width="1080" height="50" fill="#2D003A" stroke="#5B1D58" stroke-width="2"/>
+  <g stroke-width="6" fill="none">
+    <line x1="65" y1="265" x2="1135" y2="265" stroke="#5B1D58" opacity="0.9"/>
+    <line x1="65" y1="278" x2="1135" y2="278" stroke="#7D3A72" opacity="0.8"/>
+    <line x1="65" y1="252" x2="800" y2="252" stroke="#3D1045" opacity="0.9"/>
+  </g>
+  <!-- Conduit rígido -->
+  <g fill="none" stroke="#5B1D58" stroke-width="3">
+    <ellipse cx="100" cy="360" rx="15" ry="4"/>
+    <rect x="85" y="360" width="30" height="120"/>
+    <ellipse cx="100" cy="480" rx="15" ry="4"/>
+    <ellipse cx="300" cy="360" rx="15" ry="4"/>
+    <rect x="285" y="360" width="30" height="120"/>
+    <ellipse cx="300" cy="480" rx="15" ry="4"/>
+    <ellipse cx="500" cy="360" rx="15" ry="4"/>
+    <rect x="485" y="360" width="30" height="120"/>
+    <ellipse cx="500" cy="480" rx="15" ry="4"/>
+  </g>
+  <!-- Tablero al fondo -->
+  <rect x="920" y="100" width="220" height="540" rx="3" fill="#3D1045" stroke="#7D3A72" stroke-width="2"/>
+  <rect x="940" y="130" width="180" height="280" rx="2" fill="#1A0020"/>
+  <text x="1030" y="280" font-family="monospace" font-size="10" fill="#7D3A72" text-anchor="middle">DISTRIBUCIÓN</text>
+  <text x="1030" y="300" font-family="monospace" font-size="9" fill="#5B1D58" text-anchor="middle">TABLERO B2</text>
+  <circle cx="1030" cy="460" r="18" fill="#2D003A" stroke="#7D3A72" stroke-width="1.5"/>
+  <text x="1030" y="464" font-family="monospace" font-size="7" fill="#7D3A72" text-anchor="middle">LOCK</text>
+  <!-- Label -->
+  <text x="600" y="870" font-family="monospace" font-size="13" fill="#7D3A72" text-anchor="middle">MONTAJE ELÉCTRICO INDUSTRIAL — ingelec.argentina</text>
+</svg>

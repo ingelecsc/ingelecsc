@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <rect width="900" height="900" fill="#1A0020"/>
+  <!-- HMI pantalla SCADA -->
+  <rect x="80" y="60" width="740" height="780" rx="8" fill="#2D003A" stroke="#7D3A72" stroke-width="3"/>
+  <!-- Bisel pantalla -->
+  <rect x="100" y="100" width="700" height="600" rx="4" fill="#0A0010" stroke="#5B1D58" stroke-width="1.5"/>
+  <!-- Header SCADA -->
+  <rect x="100" y="100" width="700" height="40" rx="0" fill="#3D1045"/>
+  <text x="120" y="126" font-family="monospace" font-size="11" fill="#9B7A97">SCADA — SISTEMA DE CONTROL Y SUPERVISIÓN</text>
+  <circle cx="770" cy="120" r="8" fill="#22C55E"/>
+  <text x="755" y="124" font-family="monospace" font-size="7" fill="#9B7A97" text-anchor="end">ONLINE</text>
+  <!-- Área diagrama P&ID -->
+  <rect x="110" y="148" width="500" height="380" rx="2" fill="#050008"/>
+  <!-- Tanque TK-01 -->
+  <rect x="140" y="220" width="80" height="120" rx="3" fill="none" stroke="#7D3A72" stroke-width="2"/>
+  <rect x="140" y="280" width="80" height="60" rx="0" fill="#5B1D58" opacity="0.4"/>
+  <text x="180" y="215" font-family="monospace" font-size="8" fill="#9B7A97" text-anchor="middle">TK-01</text>
+  <text x="180" y="360" font-family="monospace" font-size="7" fill="#7D3A72" text-anchor="middle">78%</text>
+  <!-- Bomba P-101 -->
+  <circle cx="330" cy="290" r="30" fill="none" stroke="#7D3A72" stroke-width="2"/>
+  <text x="330" y="294" font-family="monospace" font-size="8" fill="#9B7A97" text-anchor="middle">P-101</text>
+  <text x="330" y="340" font-family="monospace" font-size="7" fill="#22C55E" text-anchor="middle">RUN</text>
+  <!-- Tuberías -->
+  <g stroke="#7D3A72" stroke-width="3" fill="none">
+    <line x1="220" y1="290" x2="300" y2="290"/>
+    <line x1="360" y1="290" x2="430" y2="290"/>
+    <line x1="430" y1="290" x2="430" y2="200"/>
+    <line x1="430" y1="200" x2="500" y2="200"/>
+    <line x1="180" y1="340" x2="180" y2="450"/>
+    <line x1="180" y1="450" x2="500" y2="450"/>
+  </g>
+  <!-- Válvulas -->
+  <polygon points="450,285 470,275 470,295" fill="#7D3A72"/>
+  <polygon points="490,285 470,275 470,295" fill="#7D3A72"/>
+  <polygon points="200,445 190,435 190,455" fill="#7D3A72"/>
+  <polygon points="200,445 210,435 210,455" fill="#7D3A72"/>
+  <!-- Intercambiador -->
+  <ellipse cx="530" cy="290" rx="40" ry="25" fill="none" stroke="#5B1D58" stroke-width="2"/>
+  <text x="530" y="294" font-family="monospace" font-size="7" fill="#9B7A97" text-anchor="middle">HX-01</text>
+  <!-- Trend chart derecha -->
+  <rect x="620" y="148" width="180" height="380" rx="2" fill="#050008" stroke="#3D1045" stroke-width="1"/>
+  <text x="710" y="168" font-family="monospace" font-size="8" fill="#9B7A97" text-anchor="middle">TENDENCIA</text>
+  <g stroke="#3D1045" stroke-width="0.5">
+    <line x1="630" y1="200" x2="790" y2="200"/>
+    <line x1="630" y1="240" x2="790" y2="240"/>
+    <line x1="630" y1="280" x2="790" y2="280"/>
+    <line x1="630" y1="320" x2="790" y2="320"/>
+    <line x1="630" y1="360" x2="790" y2="360"/>
+    <line x1="630" y1="400" x2="790" y2="400"/>
+    <line x1="630" y1="440" x2="790" y2="440"/>
+    <line x1="630" y1="480" x2="790" y2="480"/>
+  </g>
+  <polyline points="635,460 660,420 685,440 710,390 735,370 760,350 785,340"
+    stroke="#7D3A72" stroke-width="2" fill="none"/>
+  <polyline points="635,480 660,460 685,430 710,440 735,410 760,400 785,380"
+    stroke="#5B1D58" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <!-- Panel de alarmas inferior -->
+  <rect x="110" y="535" width="690" height="155" rx="2" fill="#050008" stroke="#3D1045" stroke-width="1"/>
+  <text x="130" y="555" font-family="monospace" font-size="8" fill="#9B7A97">ALARMAS ACTIVAS</text>
+  <g font-family="monospace" font-size="8">
+    <rect x="120" y="562" width="8" height="8" rx="1" fill="#F59E0B"/>
+    <text x="135" y="571" fill="#F59E0B">10:42:18 — PRESIÓN ALTA TK-01 — 4.2 bar (límite 4.0)</text>
+    <rect x="120" y="580" width="8" height="8" rx="1" fill="#22C55E"/>
+    <text x="135" y="589" fill="#22C55E">09:15:44 — P-101 ARRANCADA MANUAL</text>
+    <rect x="120" y="598" width="8" height="8" rx="1" fill="#9B7A97"/>
+    <text x="135" y="607" fill="#9B7A97">08:30:00 — INICIO TURNO MAÑANA</text>
+  </g>
+  <!-- Variables lado derecho -->
+  <rect x="760" y="535" width="40" height="155" fill="#050008"/>
+  <text x="780" y="610" font-family="monospace" font-size="7" fill="#7D3A72" text-anchor="middle" writing-mode="tb">INSTRUMENTACIÓN</text>
+  <!-- Teclado HMI inferior -->
+  <rect x="200" y="720" width="500" height="80" rx="4" fill="#3D1045" stroke="#5B1D58" stroke-width="1"/>
+  <g fill="#2D003A" stroke="#5B1D58" stroke-width="0.5">
+    <rect x="220" y="735" width="40" height="30" rx="2"/>
+    <rect x="268" y="735" width="40" height="30" rx="2"/>
+    <rect x="316" y="735" width="40" height="30" rx="2"/>
+    <rect x="364" y="735" width="40" height="30" rx="2"/>
+    <rect x="412" y="735" width="40" height="30" rx="2"/>
+    <rect x="460" y="735" width="40" height="30" rx="2"/>
+    <rect x="508" y="735" width="80" height="30" rx="2"/>
+    <rect x="596" y="735" width="80" height="30" rx="2"/>
+  </g>
+  <text x="240" y="755" font-family="monospace" font-size="8" fill="#7D3A72" text-anchor="middle">F1</text>
+  <text x="288" y="755" font-family="monospace" font-size="8" fill="#7D3A72" text-anchor="middle">F2</text>
+  <text x="336" y="755" font-family="monospace" font-size="8" fill="#7D3A72" text-anchor="middle">F3</text>
+  <text x="384" y="755" font-family="monospace" font-size="8" fill="#7D3A72" text-anchor="middle">F4</text>
+  <text x="432" y="755" font-family="monospace" font-size="8" fill="#7D3A72" text-anchor="middle">ESC</text>
+  <text x="480" y="755" font-family="monospace" font-size="8" fill="#7D3A72" text-anchor="middle">ENT</text>
+  <text x="548" y="755" font-family="monospace" font-size="7" fill="#5B1D58" text-anchor="middle">ALARM ACK</text>
+  <text x="636" y="755" font-family="monospace" font-size="7" fill="#5B1D58" text-anchor="middle">MAINT MODE</text>
+  <text x="450" y="850" font-family="monospace" font-size="12" fill="#7D3A72" text-anchor="middle">CONTROL SCADA — ingelec.argentina</text>
+</svg>

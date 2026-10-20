@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <rect width="900" height="900" fill="#1A0020"/>
+  <!-- Detalle cables — vista close-up -->
+  <rect x="0" y="0" width="900" height="900" fill="#2D003A"/>
+  <!-- Bandeja portacables horizontal -->
+  <rect x="50" y="350" width="800" height="60" fill="#3D1045" stroke="#5B1D58" stroke-width="2"/>
+  <g stroke="#5B1D58" stroke-width="1.5">
+    <line x1="100" y1="350" x2="100" y2="410"/>
+    <line x1="150" y1="350" x2="150" y2="410"/>
+    <line x1="200" y1="350" x2="200" y2="410"/>
+    <line x1="250" y1="350" x2="250" y2="410"/>
+    <line x1="300" y1="350" x2="300" y2="410"/>
+    <line x1="350" y1="350" x2="350" y2="410"/>
+    <line x1="400" y1="350" x2="400" y2="410"/>
+    <line x1="450" y1="350" x2="450" y2="410"/>
+    <line x1="500" y1="350" x2="500" y2="410"/>
+    <line x1="550" y1="350" x2="550" y2="410"/>
+    <line x1="600" y1="350" x2="600" y2="410"/>
+    <line x1="650" y1="350" x2="650" y2="410"/>
+    <line x1="700" y1="350" x2="700" y2="410"/>
+    <line x1="750" y1="350" x2="750" y2="410"/>
+    <line x1="800" y1="350" x2="800" y2="410"/>
+  </g>
+  <!-- Cables descendentes (haz de cables) -->
+  <g fill="none" stroke-width="14">
+    <line x1="120" y1="0" x2="120" y2="380" stroke="#7D3A72" opacity="0.9"/>
+    <line x1="145" y1="0" x2="145" y2="380" stroke="#5B1D58" opacity="0.85"/>
+    <line x1="170" y1="0" x2="170" y2="380" stroke="#9B7A97" opacity="0.8"/>
+    <line x1="195" y1="0" x2="195" y2="380" stroke="#7D3A72" opacity="0.75"/>
+    <line x1="220" y1="0" x2="220" y2="380" stroke="#5B1D58" opacity="0.9"/>
+    <line x1="245" y1="0" x2="245" y2="380" stroke="#3D1045" opacity="0.85"/>
+    <line x1="270" y1="0" x2="270" y2="380" stroke="#7D3A72" opacity="0.7"/>
+    <line x1="295" y1="0" x2="295" y2="380" stroke="#9B7A97" opacity="0.8"/>
+  </g>
+  <!-- Cables ascendentes -->
+  <g fill="none" stroke-width="14">
+    <line x1="380" y1="410" x2="380" y2="900" stroke="#5B1D58" opacity="0.9"/>
+    <line x1="410" y1="410" x2="410" y2="900" stroke="#7D3A72" opacity="0.8"/>
+    <line x1="440" y1="410" x2="440" y2="900" stroke="#3D1045" opacity="0.9"/>
+    <line x1="470" y1="410" x2="470" y2="900" stroke="#9B7A97" opacity="0.75"/>
+    <line x1="500" y1="410" x2="500" y2="900" stroke="#7D3A72" opacity="0.85"/>
+    <line x1="530" y1="410" x2="530" y2="900" stroke="#5B1D58" opacity="0.8"/>
+    <line x1="560" y1="410" x2="560" y2="900" stroke="#9B7A97" opacity="0.7"/>
+  </g>
+  <!-- Brida sujetacables -->
+  <rect x="110" y="160" width="180" height="16" rx="8" fill="#7D3A72" opacity="0.7"/>
+  <rect x="110" y="220" width="180" height="16" rx="8" fill="#5B1D58" opacity="0.7"/>
+  <rect x="110" y="280" width="180" height="16" rx="8" fill="#7D3A72" opacity="0.7"/>
+  <!-- Etiquetas de cable -->
+  <rect x="140" y="100" width="40" height="20" rx="2" fill="#F6F6F7" opacity="0.15"/>
+  <text x="160" y="114" font-family="monospace" font-size="8" fill="#F6F6F7" text-anchor="middle" opacity="0.8">L1</text>
+  <rect x="200" y="100" width="40" height="20" rx="2" fill="#F6F6F7" opacity="0.15"/>
+  <text x="220" y="114" font-family="monospace" font-size="8" fill="#F6F6F7" text-anchor="middle" opacity="0.8">L2</text>
+  <rect x="260" y="100" width="40" height="20" rx="2" fill="#F6F6F7" opacity="0.15"/>
+  <text x="280" y="114" font-family="monospace" font-size="8" fill="#F6F6F7" text-anchor="middle" opacity="0.8">L3</text>
+  <!-- Watermark -->
+  <text x="450" y="860" font-family="monospace" font-size="12" fill="#7D3A72" text-anchor="middle" opacity="0.6">CANALIZACIÓN Y CABLEADO — ingelec.argentina</text>
+</svg>

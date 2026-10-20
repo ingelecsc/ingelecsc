@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#1A0020"/>
+  <!-- Planta industrial — vista panorámica -->
+  <!-- Suelo -->
+  <rect x="0" y="700" width="1600" height="200" fill="#2D003A"/>
+  <g stroke="#3D1045" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="730" x2="1600" y2="730"/>
+    <line x1="0" y1="760" x2="1600" y2="760"/>
+    <line x1="0" y1="790" x2="1600" y2="790"/>
+    <line x1="0" y1="820" x2="1600" y2="820"/>
+    <line x1="0" y1="850" x2="1600" y2="850"/>
+    <line x1="200" y1="700" x2="200" y2="900"/>
+    <line x1="400" y1="700" x2="400" y2="900"/>
+    <line x1="600" y1="700" x2="600" y2="900"/>
+    <line x1="800" y1="700" x2="800" y2="900"/>
+    <line x1="1000" y1="700" x2="1000" y2="900"/>
+    <line x1="1200" y1="700" x2="1200" y2="900"/>
+    <line x1="1400" y1="700" x2="1400" y2="900"/>
+  </g>
+  <!-- Maquinaria fondo izquierda -->
+  <rect x="40" y="300" width="200" height="400" rx="3" fill="#2D003A" stroke="#5B1D58" stroke-width="2"/>
+  <rect x="60" y="320" width="160" height="200" rx="2" fill="#3D1045"/>
+  <rect x="80" y="340" width="120" height="160" rx="1" fill="#1A0020"/>
+  <circle cx="140" cy="420" r="50" fill="none" stroke="#7D3A72" stroke-width="3"/>
+  <circle cx="140" cy="420" r="30" fill="none" stroke="#5B1D58" stroke-width="2"/>
+  <circle cx="140" cy="420" r="8" fill="#7D3A72"/>
+  <!-- Motor -->
+  <rect x="80" y="540" width="160" height="80" rx="4" fill="#3D1045" stroke="#7D3A72" stroke-width="1.5"/>
+  <text x="160" y="588" font-family="monospace" font-size="9" fill="#7D3A72" text-anchor="middle">MOTOR 45kW</text>
+  <!-- Línea de producción centro -->
+  <rect x="280" y="500" width="700" height="100" rx="3" fill="#2D003A" stroke="#5B1D58" stroke-width="1.5"/>
+  <!-- Rodillos -->
+  <g fill="#3D1045" stroke="#7D3A72" stroke-width="1">
+    <circle cx="320" cy="550" r="25"/>
+    <circle cx="390" cy="550" r="25"/>
+    <circle cx="460" cy="550" r="25"/>
+    <circle cx="530" cy="550" r="25"/>
+    <circle cx="600" cy="550" r="25"/>
+    <circle cx="670" cy="550" r="25"/>
+    <circle cx="740" cy="550" r="25"/>
+    <circle cx="810" cy="550" r="25"/>
+    <circle cx="880" cy="550" r="25"/>
+    <circle cx="950" cy="550" r="25"/>
+  </g>
+  <!-- Correa transportadora -->
+  <rect x="290" y="545" width="680" height="10" rx="5" fill="#5B1D58" opacity="0.7"/>
+  <!-- Tableros en pared -->
+  <rect x="1020" y="250" width="160" height="450" rx="3" fill="#2D003A" stroke="#7D3A72" stroke-width="2"/>
+  <rect x="1035" y="270" width="130" height="250" rx="2" fill="#3D1045"/>
+  <g fill="#3D1045" stroke="#7D3A72" stroke-width="1">
+    <rect x="1045" y="285" width="45" height="70" rx="1"/>
+    <rect x="1100" y="285" width="45" height="70" rx="1"/>
+    <rect x="1045" y="365" width="45" height="70" rx="1"/>
+    <rect x="1100" y="365" width="45" height="70" rx="1"/>
+    <rect x="1045" y="445" width="45" height="70" rx="1"/>
+    <rect x="1100" y="445" width="45" height="70" rx="1"/>
+  </g>
+  <!-- LEDs tablero -->
+  <circle cx="1060" cy="295" r="4" fill="#22C55E"/>
+  <circle cx="1115" cy="295" r="4" fill="#22C55E"/>
+  <circle cx="1060" cy="375" r="4" fill="#F59E0B"/>
+  <circle cx="1115" cy="375" r="4" fill="#22C55E"/>
+  <circle cx="1060" cy="455" r="4" fill="#22C55E"/>
+  <circle cx="1115" cy="455" r="4" fill="#EF4444"/>
+  <!-- Bandejas portacables en techo -->
+  <rect x="0" y="200" width="1600" height="40" fill="#2D003A" stroke="#5B1D58" stroke-width="1" opacity="0.8"/>
+  <rect x="0" y="240" width="1600" height="40" fill="#2D003A" stroke="#3D1045" stroke-width="1" opacity="0.6"/>
+  <!-- Cables techo -->
+  <g stroke="#7D3A72" stroke-width="8" opacity="0.6">
+    <line x1="0" y1="220" x2="1600" y2="220"/>
+    <line x1="0" y1="260" x2="1600" y2="260"/>
+    <line x1="0" y1="235" x2="1600" y2="235"/>
+  </g>
+  <!-- Iluminación industrial -->
+  <g fill="#F6F6F7" opacity="0.06">
+    <ellipse cx="300" cy="280" rx="150" ry="80"/>
+    <ellipse cx="700" cy="280" rx="150" ry="80"/>
+    <ellipse cx="1100" cy="280" rx="150" ry="80"/>
+    <ellipse cx="1500" cy="280" rx="100" ry="60"/>
+  </g>
+  <!-- Luminarias -->
+  <g fill="#3D1045" stroke="#5B1D58" stroke-width="1">
+    <rect x="250" y="240" width="100" height="15" rx="2"/>
+    <rect x="650" y="240" width="100" height="15" rx="2"/>
+    <rect x="1050" y="240" width="100" height="15" rx="2"/>
+    <rect x="1450" y="240" width="100" height="15" rx="2"/>
+  </g>
+  <!-- Subestación fondo derecha -->
+  <rect x="1250" y="300" width="300" height="400" rx="3" fill="#2D003A" stroke="#7D3A72" stroke-width="2"/>
+  <text x="1400" y="490" font-family="monospace" font-size="11" fill="#7D3A72" text-anchor="middle">SUBESTACIÓN</text>
+  <text x="1400" y="510" font-family="monospace" font-size="9" fill="#5B1D58" text-anchor="middle">13.2kV / 400V</text>
+  <rect x="1270" y="330" width="260" height="140" rx="2" fill="#3D1045"/>
+  <rect x="1285" y="345" width="80" height="110" rx="1" fill="#1A0020" stroke="#7D3A72" stroke-width="1"/>
+  <rect x="1375" y="345" width="80" height="110" rx="1" fill="#1A0020" stroke="#7D3A72" stroke-width="1"/>
+  <rect x="1465" y="345" width="50" height="110" rx="1" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <text x="600" y="870" font-family="monospace" font-size="13" fill="#7D3A72" text-anchor="middle">INSTALACIONES INDUSTRIALES — ingelec.argentina</text>
+</svg>

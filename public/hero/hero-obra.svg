@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A0020"/>
+      <stop offset="60%" stop-color="#2D003A"/>
+      <stop offset="100%" stop-color="#3D1045"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#4A1A55" stroke-width="0.4" opacity="0.5"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+
+  <!-- Large switchboard panel (main focal point) -->
+  <rect x="200" y="120" width="700" height="820" rx="6" fill="#1A0020" stroke="#5B1D58" stroke-width="2"/>
+  <rect x="220" y="140" width="660" height="600" rx="3" fill="#0D0010" stroke="#3D1045" stroke-width="1"/>
+
+  <!-- Main bus bar -->
+  <rect x="240" y="160" width="620" height="12" rx="3" fill="#2D003A" stroke="#7D3A72" stroke-width="1.5"/>
+  <rect x="248" y="162" width="604" height="8" rx="2" fill="#3D1045"/>
+
+  <!-- Bus connection studs -->
+  <circle cx="300" cy="166" r="6" fill="#7D3A72" opacity="0.9"/>
+  <circle cx="440" cy="166" r="6" fill="#7D3A72" opacity="0.9"/>
+  <circle cx="580" cy="166" r="6" fill="#7D3A72" opacity="0.9"/>
+  <circle cx="720" cy="166" r="6" fill="#5B1D58" opacity="0.7"/>
+  <circle cx="800" cy="166" r="6" fill="#7D3A72" opacity="0.9"/>
+
+  <!-- Row 1: Main circuit breaker + feeders -->
+  <rect x="250" y="188" width="90" height="120" rx="3" fill="#2D003A" stroke="#7D3A72" stroke-width="1.5"/>
+  <rect x="265" y="200" width="60" height="80" rx="2" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="278" y="215" width="34" height="50" rx="8" fill="#5B1D58"/>
+  <text x="295" y="295" font-family="monospace" font-size="8" fill="#7D3A72" text-anchor="middle">MAIN</text>
+  <text x="295" y="305" font-family="monospace" font-size="7" fill="#5B1D58" text-anchor="middle">630A</text>
+
+  <!-- Feeder breakers row 1 -->
+  <rect x="360" y="188" width="55" height="80" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="373" y="200" width="30" height="55" rx="5" fill="#3D1045"/>
+  <rect x="420" y="188" width="55" height="80" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="433" y="200" width="30" height="55" rx="5" fill="#3D1045"/>
+  <rect x="480" y="188" width="55" height="80" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="493" y="200" width="30" height="55" rx="5" fill="#3D1045"/>
+  <rect x="540" y="188" width="55" height="80" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="553" y="200" width="30" height="55" rx="5" fill="#5B1D58"/>
+  <rect x="600" y="188" width="55" height="80" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="613" y="200" width="30" height="55" rx="5" fill="#3D1045"/>
+  <rect x="660" y="188" width="55" height="80" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="673" y="200" width="30" height="55" rx="5" fill="#3D1045"/>
+  <rect x="720" y="188" width="55" height="80" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="733" y="200" width="30" height="55" rx="5" fill="#5B1D58"/>
+  <rect x="780" y="188" width="55" height="80" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="793" y="200" width="30" height="55" rx="5" fill="#3D1045"/>
+
+  <!-- Labels row 1 -->
+  <text x="387" y="282" font-family="monospace" font-size="6.5" fill="#5B1D58" text-anchor="middle">32A</text>
+  <text x="447" y="282" font-family="monospace" font-size="6.5" fill="#5B1D58" text-anchor="middle">25A</text>
+  <text x="507" y="282" font-family="monospace" font-size="6.5" fill="#5B1D58" text-anchor="middle">40A</text>
+  <text x="567" y="282" font-family="monospace" font-size="6.5" fill="#7D3A72" text-anchor="middle">63A</text>
+  <text x="627" y="282" font-family="monospace" font-size="6.5" fill="#5B1D58" text-anchor="middle">25A</text>
+  <text x="687" y="282" font-family="monospace" font-size="6.5" fill="#5B1D58" text-anchor="middle">32A</text>
+  <text x="747" y="282" font-family="monospace" font-size="6.5" fill="#7D3A72" text-anchor="middle">63A</text>
+  <text x="807" y="282" font-family="monospace" font-size="6.5" fill="#5B1D58" text-anchor="middle">25A</text>
+
+  <!-- LED status indicators row -->
+  <circle cx="300" cy="320" r="5" fill="#7D3A72" filter="url(#glow)" opacity="0.95"/>
+  <circle cx="387" cy="320" r="4" fill="#5B1D58" opacity="0.7"/>
+  <circle cx="447" cy="320" r="4" fill="#7D3A72" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="507" cy="320" r="4" fill="#5B1D58" opacity="0.7"/>
+  <circle cx="567" cy="320" r="4" fill="#7D3A72" filter="url(#glow)" opacity="0.95"/>
+  <circle cx="627" cy="320" r="4" fill="#5B1D58" opacity="0.6"/>
+  <circle cx="687" cy="320" r="4" fill="#7D3A72" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="747" cy="320" r="4" fill="#7D3A72" filter="url(#glow)" opacity="0.95"/>
+  <circle cx="807" cy="320" r="4" fill="#5B1D58" opacity="0.7"/>
+
+  <!-- Row 2: Motor starters / VFDs -->
+  <rect x="240" y="345" width="120" height="100" rx="3" fill="#2D003A" stroke="#7D3A72" stroke-width="1.5"/>
+  <rect x="255" y="360" width="90" height="70" rx="2" fill="#1A0020" stroke="#5B1D58" stroke-width="0.8"/>
+  <rect x="265" y="370" width="70" height="50" rx="1" fill="#0D0010"/>
+  <!-- VFD display simulation -->
+  <rect x="268" y="373" width="64" height="16" rx="1" fill="#1A0020" stroke="#3D1045" stroke-width="0.5"/>
+  <text x="300" y="384" font-family="monospace" font-size="7" fill="#7D3A72" text-anchor="middle">50.00 Hz</text>
+  <line x1="268" y1="392" x2="332" y2="392" stroke="#3D1045" stroke-width="0.3"/>
+  <text x="300" y="402" font-family="monospace" font-size="6" fill="#5B1D58" text-anchor="middle">380V  2.4A</text>
+  <text x="300" y="437" font-family="monospace" font-size="7" fill="#7D3A72" text-anchor="middle">VFD</text>
+  <text x="300" y="448" font-family="monospace" font-size="6" fill="#5B1D58" text-anchor="middle">7.5 kW</text>
+
+  <!-- Contactor blocks -->
+  <rect x="375" y="345" width="65" height="100" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="385" y="358" width="45" height="70" rx="2" fill="#1A0020"/>
+  <rect x="390" y="365" width="35" height="20" rx="1" fill="#3D1045" stroke="#5B1D58" stroke-width="0.5"/>
+  <rect x="390" y="390" width="35" height="10" rx="1" fill="#2D003A"/>
+  <rect x="445" y="345" width="65" height="100" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="515" y="345" width="65" height="100" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="585" y="345" width="65" height="100" rx="2" fill="#2D003A" stroke="#7D3A72" stroke-width="1.5"/>
+  <rect x="655" y="345" width="65" height="100" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="725" y="345" width="65" height="100" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="795" y="345" width="65" height="100" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+
+  <!-- PLC / CPU module -->
+  <rect x="240" y="460" width="200" height="130" rx="3" fill="#2D003A" stroke="#7D3A72" stroke-width="2"/>
+  <rect x="253" y="473" width="174" height="100" rx="2" fill="#1A0020" stroke="#3D1045" stroke-width="0.8"/>
+  <text x="340" y="505" font-family="Helvetica Neue, monospace" font-size="10" font-weight="bold" fill="#7D3A72" text-anchor="middle" letter-spacing="1">CPU 1214C</text>
+  <text x="340" y="520" font-family="monospace" font-size="7" fill="#5B1D58" text-anchor="middle">SIEMENS S7-1200</text>
+  <!-- CPU LED strip -->
+  <rect x="258" y="530" width="164" height="8" rx="2" fill="#0D0010"/>
+  <circle cx="272" cy="534" r="3" fill="#7D3A72" filter="url(#glow)"/>
+  <circle cx="286" cy="534" r="3" fill="#7D3A72" filter="url(#glow)"/>
+  <circle cx="300" cy="534" r="3" fill="#5B1D58" opacity="0.6"/>
+  <circle cx="314" cy="534" r="3" fill="#7D3A72" filter="url(#glow)"/>
+  <circle cx="328" cy="534" r="3" fill="#5B1D58" opacity="0.5"/>
+  <circle cx="342" cy="534" r="3" fill="#7D3A72" filter="url(#glow)"/>
+  <!-- Ethernet port -->
+  <rect x="258" y="545" width="22" height="14" rx="1" fill="#3D1045" stroke="#5B1D58" stroke-width="0.8"/>
+  <text x="298" y="558" font-family="monospace" font-size="6" fill="#5B1D58">PROFINET</text>
+
+  <!-- Signal module row -->
+  <rect x="450" y="460" width="45" height="130" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="500" y="460" width="45" height="130" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="550" y="460" width="45" height="130" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="600" y="460" width="45" height="130" rx="2" fill="#2D003A" stroke="#7D3A72" stroke-width="1.5"/>
+  <rect x="650" y="460" width="45" height="130" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+
+  <!-- I/O labels -->
+  <text x="472" y="530" font-family="monospace" font-size="6" fill="#5B1D58" text-anchor="middle" transform="rotate(-90, 472, 530)">DI 16x</text>
+  <text x="522" y="530" font-family="monospace" font-size="6" fill="#5B1D58" text-anchor="middle" transform="rotate(-90, 522, 530)">DO 16x</text>
+  <text x="572" y="530" font-family="monospace" font-size="6" fill="#5B1D58" text-anchor="middle" transform="rotate(-90, 572, 530)">AI 8x</text>
+  <text x="622" y="530" font-family="monospace" font-size="6" fill="#7D3A72" text-anchor="middle" transform="rotate(-90, 622, 530)">AO 4x</text>
+
+  <!-- Terminal blocks section -->
+  <rect x="240" y="605" width="620" height="50" rx="2" fill="#1A0020" stroke="#3D1045" stroke-width="1"/>
+  <rect x="250" y="612" width="600" height="36" rx="1" fill="#0D0010"/>
+  <!-- Terminal grid -->
+  <line x1="270" y1="612" x2="270" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="290" y1="612" x2="290" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="310" y1="612" x2="310" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="330" y1="612" x2="330" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="350" y1="612" x2="350" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="370" y1="612" x2="370" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="390" y1="612" x2="390" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="410" y1="612" x2="410" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="430" y1="612" x2="430" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="450" y1="612" x2="450" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="470" y1="612" x2="470" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="490" y1="612" x2="490" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="510" y1="612" x2="510" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="530" y1="612" x2="530" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="550" y1="612" x2="550" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="570" y1="612" x2="570" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="590" y1="612" x2="590" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="610" y1="612" x2="610" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="630" y1="612" x2="630" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="650" y1="612" x2="650" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="670" y1="612" x2="670" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="690" y1="612" x2="690" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="710" y1="612" x2="710" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="730" y1="612" x2="730" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="750" y1="612" x2="750" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="770" y1="612" x2="770" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="790" y1="612" x2="790" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="810" y1="612" x2="810" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="830" y1="612" x2="830" y2="648" stroke="#3D1045" stroke-width="0.5"/>
+
+  <!-- Wire entries -->
+  <rect x="280" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="320" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="360" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="400" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="440" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="480" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="520" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="560" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="600" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#7D3A72" stroke-width="1.5"/>
+  <rect x="640" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="680" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="720" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="760" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="800" y="670" width="24" height="60" rx="4" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+
+  <!-- Label plate at bottom -->
+  <rect x="240" y="740" width="620" height="40" rx="2" fill="#0D0010" stroke="#2D003A" stroke-width="1"/>
+  <text x="550" y="765" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="300" fill="#5B1D58" text-anchor="middle" letter-spacing="3">TABLERO GENERAL DE DISTRIBUCIÓN · 380V / 50Hz · 630A</text>
+
+  <!-- Right side: Secondary panel -->
+  <rect x="970" y="180" width="380" height="640" rx="5" fill="#1A0020" stroke="#5B1D58" stroke-width="1.5"/>
+  <!-- HMI screen -->
+  <rect x="990" y="200" width="340" height="220" rx="4" fill="#0D0010" stroke="#7D3A72" stroke-width="1.5"/>
+  <!-- Simulated process screen -->
+  <rect x="1005" y="215" width="310" height="190" rx="2" fill="#070010"/>
+  <!-- P&ID style diagram on screen -->
+  <!-- Tank -->
+  <rect x="1050" y="250" width="70" height="90" rx="3" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="1060" y="260" width="50" height="70" rx="1" fill="#0D0010"/>
+  <!-- Level indicator -->
+  <rect x="1062" y="295" width="46" height="33" rx="1" fill="#2D003A"/>
+  <text x="1085" y="316" font-family="monospace" font-size="8" fill="#7D3A72" text-anchor="middle">87%</text>
+  <!-- Tank label -->
+  <text x="1085" y="355" font-family="monospace" font-size="7" fill="#5B1D58" text-anchor="middle">TK-01</text>
+  <!-- Pump -->
+  <circle cx="1195" cy="300" r="22" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <circle cx="1195" cy="300" r="12" fill="#2D003A" stroke="#7D3A72" stroke-width="0.8"/>
+  <text x="1195" y="330" font-family="monospace" font-size="6" fill="#5B1D58" text-anchor="middle">P-101</text>
+  <!-- Flow arrow -->
+  <path d="M 1120 285 L 1173 285" stroke="#7D3A72" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 1217 285 L 1260 285" stroke="#5B1D58" stroke-width="1.5"/>
+  <!-- Status values -->
+  <text x="1155" y="250" font-family="monospace" font-size="7" fill="#7D3A72">RUNNING</text>
+  <text x="1155" y="260" font-family="monospace" font-size="6" fill="#5B1D58">38.5 m³/h</text>
+  <!-- Trend chart at bottom of screen -->
+  <rect x="1008" y="370" width="304" height="30" rx="1" fill="#0D0010" stroke="#1A0020" stroke-width="0.5"/>
+  <path d="M 1012 398 L 1040 385 L 1075 390 L 1110 378 L 1150 382 L 1190 370 L 1230 375 L 1270 368 L 1308 372" fill="none" stroke="#7D3A72" stroke-width="1.2"/>
+  <path d="M 1012 398 L 1040 392 L 1075 396 L 1110 388 L 1150 390 L 1190 386 L 1230 382 L 1270 380 L 1308 383" fill="none" stroke="#5B1D58" stroke-width="1"/>
+
+  <!-- Push buttons panel row -->
+  <rect x="1000" y="435" width="320" height="60" rx="3" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <!-- E-stop button (red) -->
+  <circle cx="1030" cy="465" r="16" fill="#1A0020" stroke="#9B0020" stroke-width="2"/>
+  <circle cx="1030" cy="465" r="10" fill="#CC0000"/>
+  <text x="1030" y="494" font-family="monospace" font-size="6" fill="#9B0020" text-anchor="middle">PARO</text>
+  <!-- Start button (green) -->
+  <circle cx="1080" cy="465" r="12" fill="#1A0020" stroke="#2D6A2D" stroke-width="1.5"/>
+  <circle cx="1080" cy="465" r="7" fill="#00A040"/>
+  <text x="1080" y="490" font-family="monospace" font-size="6" fill="#2D6A2D" text-anchor="middle">MARCHA</text>
+  <!-- Selector switch -->
+  <circle cx="1130" cy="465" r="12" fill="#1A0020" stroke="#5B1D58" stroke-width="1.5"/>
+  <line x1="1130" y1="453" x2="1138" y2="465" stroke="#7D3A72" stroke-width="2"/>
+  <text x="1130" y="490" font-family="monospace" font-size="6" fill="#5B1D58" text-anchor="middle">AUTO/MAN</text>
+  <!-- Pilot lights -->
+  <circle cx="1180" cy="460" r="7" fill="#7D3A72" filter="url(#glow)"/>
+  <circle cx="1200" cy="460" r="7" fill="#1A0020" stroke="#5B1D58" stroke-width="1"/>
+  <circle cx="1220" cy="460" r="7" fill="#7D3A72" filter="url(#glow)"/>
+  <circle cx="1240" cy="460" r="7" fill="#5B1D58" opacity="0.6"/>
+  <text x="1210" y="484" font-family="monospace" font-size="5.5" fill="#5B1D58" text-anchor="middle">SEÑALIZACION</text>
+  <!-- Meter -->
+  <rect x="1265" y="442" width="50" height="40" rx="2" fill="#1A0020" stroke="#7D3A72" stroke-width="1.5"/>
+  <text x="1290" y="457" font-family="monospace" font-size="7" fill="#7D3A72" text-anchor="middle">380</text>
+  <text x="1290" y="467" font-family="monospace" font-size="5" fill="#5B1D58" text-anchor="middle">V</text>
+  <text x="1290" y="477" font-family="monospace" font-size="5" fill="#3D1045" text-anchor="middle">——</text>
+
+  <!-- Secondary breaker section -->
+  <rect x="1000" y="510" width="320" height="110" rx="2" fill="#0D0010" stroke="#3D1045" stroke-width="0.8"/>
+  <rect x="1010" y="520" width="40" height="70" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="1055" y="520" width="40" height="70" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="1100" y="520" width="40" height="70" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="1145" y="520" width="40" height="70" rx="2" fill="#2D003A" stroke="#7D3A72" stroke-width="1.5"/>
+  <rect x="1190" y="520" width="40" height="70" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="1235" y="520" width="40" height="70" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+  <rect x="1280" y="520" width="35" height="70" rx="2" fill="#2D003A" stroke="#5B1D58" stroke-width="1"/>
+
+  <!-- Right panel cable tray -->
+  <rect x="1360" y="200" width="160" height="560" rx="3" fill="#1A0020" stroke="#5B1D58" stroke-width="1.5"/>
+  <line x1="1380" y1="200" x2="1380" y2="760" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="1400" y1="200" x2="1400" y2="760" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="1420" y1="200" x2="1420" y2="760" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="1440" y1="200" x2="1440" y2="760" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="1460" y1="200" x2="1460" y2="760" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="1480" y1="200" x2="1480" y2="760" stroke="#3D1045" stroke-width="0.5"/>
+  <line x1="1500" y1="200" x2="1500" y2="760" stroke="#3D1045" stroke-width="0.5"/>
+  <!-- Cables in tray -->
+  <path d="M 1372 220 Q 1375 400 1372 760" stroke="#2D003A" stroke-width="4" opacity="0.6"/>
+  <path d="M 1383 220 Q 1386 350 1383 760" stroke="#3D1045" stroke-width="3" opacity="0.5"/>
+  <path d="M 1393 220 Q 1390 500 1393 760" stroke="#2D003A" stroke-width="5" opacity="0.4"/>
+  <path d="M 1405 220 Q 1408 280 1405 760" stroke="#2D003A" stroke-width="4" opacity="0.6"/>
+  <path d="M 1415 220 Q 1412 600 1415 760" stroke="#3D1045" stroke-width="3" opacity="0.5"/>
+
+  <!-- Background industrial elements (far right - blurred/faded) -->
+  <rect x="1600" y="100" width="250" height="900" rx="4" fill="#0D0010" stroke="#1A0020" stroke-width="1" opacity="0.6"/>
+  <rect x="1620" y="120" width="210" height="400" rx="2" fill="#1A0020" opacity="0.4"/>
+  <!-- Distant equipment silhouette -->
+  <rect x="1650" y="200" width="30" height="200" rx="2" fill="#2D003A" opacity="0.3"/>
+  <rect x="1700" y="180" width="30" height="220" rx="2" fill="#2D003A" opacity="0.3"/>
+  <rect x="1750" y="160" width="30" height="240" rx="2" fill="#2D003A" opacity="0.3"/>
+  <rect x="1800" y="140" width="30" height="260" rx="2" fill="#1A0020" opacity="0.2"/>
+
+  <!-- Watermark / placeholder notice -->
+  <rect x="0" y="0" width="1920" height="1080" fill="none"/>
+  <text x="960" y="1050" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="300" fill="#3D1045" text-anchor="middle" letter-spacing="4" opacity="0.6">
+    REEMPLAZAR CON FOTO REAL DE OBRA · public/hero/hero-obra.jpg · INGELEC San Carlos SRL
+  </text>
+</svg>
