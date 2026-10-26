@@ -114,26 +114,10 @@ export default function Footer() {
               Contacto
             </h3>
             <ul className="space-y-3">
-              {[
-                { label: "info@ingelecsc.com",           href: "mailto:info@ingelecsc.com" },
-                { label: "alexis.perrig@ingelecsc.com",  href: "mailto:alexis.perrig@ingelecsc.com" },
-                { label: "fernando.fillia@ingelecsc.com",href: "mailto:fernando.fillia@ingelecsc.com" },
-              ].map((m) => (
-                <li key={m.href}>
-                  <a href={m.href}
-                    className="text-xs font-light text-white/40 hover:text-white/70 transition-colors break-all">
-                    {m.label}
-                  </a>
-                </li>
-              ))}
-              <li className="pt-1">
-                <a
-                  href="https://wa.me/5493496418221"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs font-light text-white/40 hover:text-white/70 transition-colors"
-                >
-                  +54 9 3496 418221
+              <li>
+                <a href="mailto:info@ingelecsc.com"
+                  className="text-xs font-light text-white/40 hover:text-white/70 transition-colors break-all">
+                  info@ingelecsc.com
                 </a>
               </li>
               <li>

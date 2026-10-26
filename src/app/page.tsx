@@ -1,6 +1,5 @@
 import Header      from "@/components/layout/Header";
 import Footer      from "@/components/layout/Footer";
-import WhatsAppButton from "@/components/layout/WhatsAppButton";
 import Hero        from "@/components/sections/Hero";
 import Services    from "@/components/sections/Services";
 import Clients     from "@/components/sections/Clients";
@@ -27,7 +26,6 @@ export default function Home() {
         <InstagramFeed />
       </main>
       <Footer />
-      <WhatsAppButton />
     </>
   );
 }

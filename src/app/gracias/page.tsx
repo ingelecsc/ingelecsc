@@ -29,12 +29,10 @@ export default function GraciasPage() {
             Volver al inicio
           </Link>
           <a
-            href="https://wa.me/5493496418221?text=Hola%20INGELEC%2C%20quisiera%20consultar%20sobre%20sus%20servicios."
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:info@ingelecsc.com"
             className="px-6 py-3 border border-brand-light dark:border-brand-primary/40 text-brand-text dark:text-white text-sm font-normal tracking-wide rounded hover:border-brand-accent/50 transition-all duration-200"
           >
-            WhatsApp
+            info@ingelecsc.com
           </a>
         </div>
       </div>
